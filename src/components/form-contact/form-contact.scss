@@ -1,0 +1,33 @@
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+
+    
+    background-color: rgba(104, 121, 170, 0.5);
+    border-radius: 25px;
+    padding: 40px 40px 50px 40px;
+    margin-top: 50px;
+    
+
+    form {
+    
+        p {
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+    
+        .controls {
+            
+            .form-floating {
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                font-size: 18px;
+            }
+        }
+    }
+}

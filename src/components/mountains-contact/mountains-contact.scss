@@ -1,0 +1,85 @@
+.mountains-contact {
+    .cloud1 {
+        display: none;
+        
+        @media (min-width: 1200px) {
+            display: initial;
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            z-index: 2;
+            max-width: 100%;
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            display: initial;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .mountains-content {
+
+        img.mountain1 {
+            position: absolute;
+
+            @media (min-width: 1200px) {
+                z-index: 4;
+                max-width: 30%;
+                bottom: 0;
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                z-index: 4;
+                bottom: 0;
+            }
+    
+        }
+    
+        img.mountain2 {
+            display: none;
+    
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                z-index: 3;
+                bottom: 0;
+                max-width: 100%;
+            }
+        }
+    
+        img.mountain3 {
+            display: none;
+        
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                z-index: 2;
+                bottom: 0;
+                right: 0;
+                max-width: 100%;
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                display: initial;
+                position: absolute;
+                z-index: 2;
+                bottom: 0;
+            }
+        }
+        
+        img.mountain4 {
+            display: none;
+    
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                right: 20%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
