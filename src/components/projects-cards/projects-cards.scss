@@ -1,0 +1,35 @@
+.projects-cards {
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        @media (min-width: 992px) {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .card {
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        background-color: #0073F6;
+        color: #ffffff;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        @media (min-width: 1200px) {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1198.8px) {
+            font-size: 26px;
+        }
+    }
+}

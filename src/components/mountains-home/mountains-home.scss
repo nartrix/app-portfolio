@@ -1,0 +1,106 @@
+.mountains-section {
+    position: relative;
+    
+    @media (min-width: 1200px) {
+        height: 720px;
+        overflow: hidden;
+    }
+
+    @media (min-width: 992px) and (max-width: 1198.8px) {
+        height: 520px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 30%;
+        border-radius: 25px;
+
+        @media (min-width: 1200px) {
+            font-size: 30px;
+            top: 40%;
+        }
+
+        @media (min-width: 992px) and (max-width: 1198.8px) {
+            font-size: 26px;
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            top: 40%;
+        }
+
+    }
+
+    .cloud3 {
+
+        @media (min-width: 1200px) {
+            display: none;
+        }
+
+        @media (min-width: 992px) and (max-width: 1198.8px) {
+            display: none;
+        }
+        
+    }
+
+    .mountains-home {
+        
+        .mountain1 {
+            position: absolute;
+            right: 10%;
+            bottom: 0;
+
+            @media (min-width: 1200px) {
+                right: 70%;
+                top: 73%;
+                z-index: -1;
+            }
+
+            @media (min-width: 992px) and (max-width: 1198.8px) {
+                right: 40%;
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                right: 45%;
+                top: 65%;
+            }
+        }
+
+        img.mountain2 {
+            display: none;
+
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                top: 20%;
+                z-index: -2;
+                max-width: 60%;
+            }
+        }
+
+        img.mountain3 {
+            display: none;
+        
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                z-index: -3;
+                max-width: 70%;
+            }
+        }
+        
+        img.mountain4 {
+            display: none;
+
+            @media (min-width: 1200px) {
+                display: initial;
+                position: absolute;
+                top: 28%;
+                left: 30%;
+                z-index: -4;
+                max-width: 70%;
+            }
+        }
+    }
+}
