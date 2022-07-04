@@ -8,22 +8,22 @@ function ProjectsCards() {
             <div className="projects-cards">
                 <div className="container">
                     <h3 className="text-center">Projets récents</h3>
-                    <div className="row gx-5 gy-3 d-flex justify-content-center">
-                        <div className="col-sm-4">
+                    <div className="row gy-3 d-flex justify-content-center">
+                        <div className="col-md-4">
                             <img src={project4} className="img-fluid"></img>
                         </div>
 
-                        <div className="col-sm-4">
+                        <div className="col-md-4">
                             <img src={project4} className="img-fluid"></img>
                         </div>
 
                         <div className="w-100"></div>
 
-                        <div className="col-sm-4">
+                        <div className="col-md-4">
                             <img src={project4} className="img-fluid"></img>
                         </div>
 
-                        <div className="col-sm-4">
+                        <div className="col-md-4">
                             <img src={project4} className="img-fluid"></img>
                         </div>
                     </div>
