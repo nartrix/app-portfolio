@@ -1,4 +1,5 @@
 .mountains-contact {
+    
     .cloud1 {
         display: none;
         
@@ -6,9 +7,9 @@
             display: initial;
             position: absolute;
             bottom: 0;
-            left: 10%;
+            left: 20%;
             z-index: 2;
-            max-width: 100%;
+            max-width: 60%;
         }
 
         @media (min-width: 768px) and (max-width: 991.98px) {
@@ -25,7 +26,7 @@
 
             @media (min-width: 1200px) {
                 z-index: 4;
-                max-width: 30%;
+                max-width: 40%;
                 bottom: 0;
             }
 
@@ -44,7 +45,7 @@
                 position: absolute;
                 z-index: 3;
                 bottom: 0;
-                max-width: 100%;
+                max-width: 40%;
             }
         }
     
@@ -57,7 +58,7 @@
                 z-index: 2;
                 bottom: 0;
                 right: 0;
-                max-width: 100%;
+                max-width: 70%;
             }
 
             @media (min-width: 768px) and (max-width: 991.98px) {
@@ -77,7 +78,7 @@
                 z-index: 1;
                 bottom: 0;
                 right: 20%;
-                max-width: 100%;
+                max-width: 60%;
             }
         }
     }

@@ -1,7 +1,7 @@
 import './home.scss';
 import HeroHome from '../../hero-home/hero-home';
 import Strategy from '../../strategy/strategy';
-import ProjectsCards from '../../projects-cards/projects-cards';
+import ProjectsHome from '../../projects-home/projects-home';
 import MountainsHome from '../../mountains-home/mountains-home';
 
 function Home () {
@@ -10,7 +10,7 @@ function Home () {
             <div className="home">
                 <HeroHome/>
                 <Strategy/>
-                <ProjectsCards/>
+                <ProjectsHome/>
                 <MountainsHome/>
             </div>
         </>

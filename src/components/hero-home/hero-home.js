@@ -28,7 +28,7 @@ function HeroHome() {
                                 <Link type="button" className="btn" to="/contact">Lancer vous</Link>
                             </div>
                             <div className="col-md-2 d-flex justify-content-center">
-                                <Link to="/presentation">voir nos projets</Link>
+                                <Link to="/presentation">Nous connaitre</Link>
                             </div>
                         </div>
                     </div>

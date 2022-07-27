@@ -1,8 +1,8 @@
-import './projects-cards.scss';
+import './projects-home.scss';
 import project4 from '../../assets/Portfolio XD/project4.png';
 import { Link } from 'react-router-dom';
 
-function ProjectsCards() {
+function ProjectsHome() {
     return (
         <>
             <div className="projects-cards">
@@ -36,4 +36,4 @@ function ProjectsCards() {
     );
 }
 
-export default ProjectsCards;
+export default ProjectsHome;
