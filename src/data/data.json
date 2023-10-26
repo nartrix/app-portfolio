@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "name":"Projet site e-commerce",
+        "image":"../assets/Portfolio XD/bg-masthead.jpg",
+        "description": "Développement complet d'une boutique en ligne dynamique spécialisée dans les gadgets électroniques innovants. Le site utilise la plateforme Shopify pour offrir une expérience d'achat fluide, des options de paiement sécurisées et une gestion efficace des produits, garantissant ainsi un lieu de destination pour les amateurs de gadgets électroniques."
+    },
+
+    {
+        "id":"2",
+        "name":"Projet site portfolio",
+        "image":"",
+        "description": "Une collection de projets React variés démontrant ma maîtrise du développement web. Les projets incluent des applications web interactives, des composants réutilisables, et des solutions personnalisées qui mettent en avant mes compétences en React et ma passion pour la création de produits numériques."
+    },
+    
+    {
+        "id":"3",
+        "name":"Réalisation du site de Kasa dans le Cadre de Ma Formation",
+        "image":"",
+        "description": "développement du site Kasa, une plateforme innovante de location d'appartements entre particuliers. Le projet a donné naissance à un espace en ligne convivial permettant aux hôtes de proposer leurs logements et aux voyageurs de trouver des hébergements uniques pour leurs séjours."
+    },
+
+    {
+        "id":"4",
+        "name":"Réalisation du site SportSee dans le Cadre de Ma Formation",
+        "image":"",
+        "description": "SportSee, lance une nouvelle version de la page de profil utilisateur. Cette mise à jour permettra aux utilisateurs de suivre leur nombre de sessions réalisées et les calories brûlées, offrant ainsi une expérience encore plus personnalisée et motivante pour atteindre leurs objectifs sportifs."
+    },
+
+    {
+        "id":"5",
+        "name":"Réalisation du site Argent Bank dans le Cadre de Ma Formation",
+        "image":"",
+        "description": "Argent Bank, La phase 1 du projet se concentre sur l'authentification des utilisateurs, offrant une solution conviviale pour la connexion. La phase 2 prévoit la spécification des endpoints d'API pour les futures transactions, ouvrant ainsi la voie à de nouvelles fonctionnalités et opportunités pour la banque."
+    },
+
+    {
+        "id":"6",
+        "name":"Réalisation du site Reservia dans le Cadre de Ma Formation",
+        "image":"",
+        "description": "L'entreprise a pour objectif de créer un site web qui offre aux utilisateurs la possibilité de trouver des hébergements et des activités dans la ville de leur choix. Mon rôle consiste à intégrer l'interface du site en utilisant du code HTML et CSS, garantissant ainsi une expérience utilisateur fluide et esthétique. Ce projet vise à offrir une solution conviviale pour la recherche d'expériences de voyage inoubliables."
+    }
+
+]

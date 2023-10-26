@@ -20,8 +20,7 @@ function HeroHome() {
                     <div className="row d-sm-flex justify-content-center">
                         <h1 className="title text-center">Agence Web</h1>
                         <p className="col-sm-6 text-center">
-                            Spécialiser dans le développement web, nous vous aidons à vous faire connaitre sur le web, 
-                            ainsi développer votre attractivité !
+                            Transformez vos idées en applications web réactives de qualité
                         </p>
                         <div className="d-flex gx-4 justify-content-center align-items-center section-btn">
                             <div className="col-md-2 d-flex justify-content-center">

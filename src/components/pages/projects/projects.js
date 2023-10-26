@@ -1,8 +1,10 @@
-import CardProjects from "../../card-projects/card-projects";
+import ProjectCarousel from "../../projects-carousel/projects-carousel";
+import ProjectArticle from "../../projects-article/projects-article";
+import DataProjects from "../../../data/data.json"
 
 function Projects() {
     
-    const project = [
+    /* const articles = [
         {
             "_id" : "1",
             "name": "Reservia",
@@ -38,11 +40,16 @@ function Projects() {
             "name": "groupomania",
             "description": "Création d'un application d'un réseaux social d'entreprise"
         },
-    ]
+    ] */
 
     return (
         <>
-        <CardProjects/>
+        <div className="Projects">
+            <ProjectCarousel/>
+            { DataProjects ? (DataProjects.map(DataProject => {
+                    return <ProjectArticle key={DataProject.id} name={DataProject.name} description={DataProject.description} image={DataProject.image} />
+            })) : [] }
+        </div>
         </>
     );
 }

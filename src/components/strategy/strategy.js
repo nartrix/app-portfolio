@@ -18,10 +18,9 @@ function Strategy() {
                         <h2 className="text-center">Notre stratégie</h2>
                         <div className="d-sm-flex flex-nowrap align-items-center strategy-item">
                             <div className="col-sm-6 order-2 strategy-content">
-                                <p className="h3 strategy-title">Stratégie</p>
+                                <p className="h3 strategy-title">Qui je suis ?</p>
                                 <p>
-                                    Réaliser vos projets digitales, un accompagnement de A à Z,
-                                    de la conception à la mise en ligne, nous serons à vos côtés pour chacun de vos besoins
+                                    Je suis un développeur web spécialisé dans la création d'applications web réactives.
                                 </p>
                             </div>
                             <div className="col-sm-6 order-1 strategy-img">
@@ -37,10 +36,9 @@ function Strategy() {
 
                         <div className="d-sm-flex align-items-center strategy-item">
                             <div className="col-sm-6 strategy-content">
-                                <p className="h3 strategy-title">Stratégie</p>
+                                <p className="h3 strategy-title">Objectifs</p>
                                 <p>
-                                    Réaliser vos projets digitales, un accompagnement de A à Z,
-                                    de la conception à la mise en ligne, nous serons à vos côtés pour chacun de vos besoins
+                                    Mon objectif est de vous aider à concrétiser vos idées et à créer des expériences web.
                                 </p>
                             </div>
                             <div className="col-sm-6 d-sm-flex justify-content-end strategy-img">
@@ -61,8 +59,8 @@ function Strategy() {
                             <div className="col-sm-6 order-2 strategy-content">
                                 <p className="h3 strategy-title">Stratégie</p>
                                 <p>
-                                    Réaliser vos projets digitales, un accompagnement de A à Z,
-                                    de la conception à la mise en ligne, nous serons à vos côtés pour chacun de vos besoins
+                                    Que vous ayez besoin d'un site web d'entreprise, d'une application web interactive ou d'une refonte complète, 
+                                    je suis là pour vous accompagner à chaque étape du processus
                                 </p>
                             </div>
                             <div className="col-sm-6 order-1 strategy-img">
